@@ -12,7 +12,7 @@
   
   /* Header */
   .profile-header {
-    background: var(--hero-gradient);
+    /* background: var(--hero-gradient); */
     color: var(--secondary-text-color);
     border-radius: 20px; /* Larger border radius for a more modern feel */
     padding: 60px 40px; /* Increased padding for a more spacious header */
