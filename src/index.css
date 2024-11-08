@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Default Light Theme */
+:root {
+  --background-color: #ffffff;
+  --primary-color: #EE06FF;
+  --secondary-color: #f8effb;
+  --secondary-text-color: #000000;
+  --text-color: #333333;
+  --accent-color: #72DDF7;
+  --border-color: #e0e0e0;
+  --card-bg-color: #d7c9d5;
+  --background-gradient: linear-gradient(135deg, #ffffff, #f0f4f8);
+  --hero-gradient: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --background-color: #121212;
+  --primary-color: #EE06FF;
+  --secondary-color: #EFB6FF;
+  --text-color: #e0e0e0;
+  --accent-color: #72DDF7;
+  --border-color: #333333;
+  --card-bg-color: #2b2b2b;
+  --background-gradient: linear-gradient(135deg, #121212, #121212);
+  --hero-gradient: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+}
+
+/* Example Usage */
+body {
+  color: var(--text-color);
+  background-color: var(--background-gradient);
+}
+
+h1, h2, h3 {
+  color: var(--primary-color);
+  font-family: "Montserrat Alternates"
+}
+
+  
+h1 { font-size: 2rem; }
+h2 { font-size: 1.75rem; }
+p { font-size: 1rem; }
+
+@media (min-width: 768px) {
+  h1 { font-size: 3rem; }
+  h2 { font-size: 2.25rem; }
+  p { font-size: 1.1rem; }
+}
+
+
+a, a:hover{
+  text-decoration: none;
+}
+
+
+button {
+  background-color: var(--secondary-color);
+  color: var(--secondary-text-color);
+  border: 1px solid var(--border-color);
+}
+
+button:hover {
+  background-color: var(--accent-color);
+}
+
+
+/* Usage in styles */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+
+.card {
+  background-color: var(--card-bg-color);
+  border: 1px solid var(--border-color);
+}
+

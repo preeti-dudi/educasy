@@ -1,0 +1,128 @@
+/* src/Styles/ChatStyles.css */
+
+
+
+.chat-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: var(--card-bg-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.chat-body {
+    display: flex;
+    flex: 1;
+}
+
+.chat-inbox {
+    width: 250px;
+    border-right: 1px solid var(--border-color);
+    background-color: var(--card-bg-color);
+    padding: 15px;
+}
+
+.inbox h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.inbox ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.inbox ul li {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.inbox ul li:hover {
+    background-color: var(--accent-color);
+    color: var(--theme-color);
+}
+
+.chat-main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background:  var(--card-bg-color);
+}
+
+.chat-content {
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.message {
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin: 8px 0;
+    width: fit-content;
+}
+
+.received {
+    background-color: var(--secondary-color);
+    color: var(--secondary-text-color);
+    align-self: flex-start;
+}
+
+.sent {
+    background-color: var(--primary-color);
+    color: var(--secondary-text-color);
+    align-self: flex-end;
+}
+
+.chat-footer {
+    padding: 15px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    background-color: var(--card-bg-color);
+}
+
+.attachment button {
+    padding: 8px 12px;
+    background-color: var(--primary-color);
+    color: var(--theme-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+}
+
+.notification {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .chat-page {
+        flex-direction: column;
+    }
+
+    .chat-inbox {
+        width: 100%;
+    }
+
+    .chat-main {
+        padding: 10px;
+    }
+}
