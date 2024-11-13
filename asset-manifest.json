@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/educasy/static/css/main.5081f223.css",
-    "main.js": "/educasy/static/js/main.2790951d.js",
+    "main.js": "/educasy/static/js/main.ed2cc82f.js",
     "static/js/453.1ab6d116.chunk.js": "/educasy/static/js/453.1ab6d116.chunk.js",
     "static/media/Robot.svg": "/educasy/static/media/Robot.b912311184bb222fa5a50ae202c35488.svg",
     "index.html": "/educasy/index.html",
     "main.5081f223.css.map": "/educasy/static/css/main.5081f223.css.map",
-    "main.2790951d.js.map": "/educasy/static/js/main.2790951d.js.map",
+    "main.ed2cc82f.js.map": "/educasy/static/js/main.ed2cc82f.js.map",
     "453.1ab6d116.chunk.js.map": "/educasy/static/js/453.1ab6d116.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5081f223.css",
-    "static/js/main.2790951d.js"
+    "static/js/main.ed2cc82f.js"
   ]
 }
