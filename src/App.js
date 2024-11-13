@@ -1,7 +1,7 @@
 // src/App.js
 
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import ArticlePage from './Pages/ArticlePage';
 import ChatPage from './Pages/ChatPage';
