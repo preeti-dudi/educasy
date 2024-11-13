@@ -59,13 +59,11 @@ const PlatformFeatures = () => (
     <h2>Platform Features</h2>
     <div className="feature-cards">
       {featuresData.map((feature, index) => (
-        <Link to={feature.link} >
         <div className="feature-card" key={index}>
           <span className="feature-icon">{feature.icon}</span>
           <h3>{feature.title}</h3>
           <p>{feature.description}</p>
         </div>
-        </Link>
       ))}
     </div>
   </section>
