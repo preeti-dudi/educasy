@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/educasy/static/css/main.f834a852.css",
-    "main.js": "/educasy/static/js/main.37fc50b1.js",
+    "main.css": "/educasy/static/css/main.151dc44d.css",
+    "main.js": "/educasy/static/js/main.61534f3f.js",
     "static/js/453.1ab6d116.chunk.js": "/educasy/static/js/453.1ab6d116.chunk.js",
     "index.html": "/educasy/index.html",
-    "main.f834a852.css.map": "/educasy/static/css/main.f834a852.css.map",
-    "main.37fc50b1.js.map": "/educasy/static/js/main.37fc50b1.js.map",
+    "main.151dc44d.css.map": "/educasy/static/css/main.151dc44d.css.map",
+    "main.61534f3f.js.map": "/educasy/static/js/main.61534f3f.js.map",
     "453.1ab6d116.chunk.js.map": "/educasy/static/js/453.1ab6d116.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f834a852.css",
-    "static/js/main.37fc50b1.js"
+    "static/css/main.151dc44d.css",
+    "static/js/main.61534f3f.js"
   ]
 }
